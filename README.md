@@ -8,7 +8,7 @@ The following diagram show the execution and interaction of the different compon
 
 ![Diagram](Images/Diagram.gif)
 
-> Note: The API can be called from a web browser, website, mobile app, bot, etc. In my case I added a button in my website to call the API. Check it out following this link: [htpps://davidsanchez.cr/projects](htpps://davidsanchez.cr/projects) 
+> Note: The API can be called from a web browser, website, mobile app, bot, etc. In my case I added a button in my website to call the API. Check it out following this link: [https://davidsanchez.cr/projects](https://davidsanchez.cr/projects) 
 
 ## Hardware
 
