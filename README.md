@@ -32,9 +32,9 @@ Of course you can use a more professional approach and do the wiring in a differ
 
 In the source folder of this project you will find three sub folders with the following projects:
 
-- **ARM** (Azure Resource Manager) template that automates the deployment of the Azure services you will need to run the project. Including Azure IoT Hub, Azure Function with consumption plan on Linux. 
+- **Deployment** (Azure Resource Manager) template that automates the deployment of the Azure services you will need to run the project. Including Azure IoT Hub, Azure Function with consumption plan on Linux. 
 
-[![Deploy to Azure](Images/Deploy.jpg)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdasanagu%2FThundercloud%2Fmain%2FSource%2FARM%2Fazuredeploy.json)
+[![Deploy to Azure](Images/Deploy.jpg)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdasanagu%2FThundercloud%2Fmain%2FSource%2FDeployment%2FARM.json)
 
 - **Device** Arduino project with the code required to receive the meesage from the IoT Hub and turn the LED Lights on. 
  
