@@ -1,5 +1,7 @@
 # Thundercloud
 
+![Thundercloud](Images/Thundercloud.gif)
+
 This project contains the software piece required to build a cloud of cotton with LED lights controlled remotely on the [MXChip Azure IoT Dev Kit](https://microsoft.github.io/azure-iot-developer-kit/v1/) by using [Azure IoT Hub](https://azure.microsoft.com/services/iot-hub) and an [Azure Function](https://azure.microsoft.com/en-us/services/functions).
 
 Users send a message to the MXChip through the API hosted in the Azure Function and it will send the message to the Azure IoT Hub which pass the message to the device. Once the message is received in the device it will turn on the lights for 300 miliseconds.
@@ -27,6 +29,8 @@ It's require to cut the wire cable of the LED Lights and stick the inside of the
  [![Wiring](Images/Wiring.jpg)](https://amzn.to/3cYpRSg)
 
 Of course you can use a more professional approach and do the wiring in a different way like using a Kit for [micro:bit](https://amzn.to/2XX0g8b).
+
+> Note: the MXChip is connected to a portable charger to avoid an extra wire in the cloud. 
 
 ## Software
 
