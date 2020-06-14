@@ -1,4 +1,4 @@
-# Thundercloud
+# Thundercloud (Azure IoT Project)
 
 ![Thundercloud](Images/Thundercloud.gif)
 
